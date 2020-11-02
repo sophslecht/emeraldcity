@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-image:url(.assets/images/guccishow.mp4);
+    background-size:100%;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+    color: black;
+    padding: 0%;
+    margin: 0%;
+}
+
+img {
+  width: 100%;
+}
+
+.emerald-background {
+  width: 150%;
+}
+
+.em-row  {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.em-image--no-space {
+  margin-left: 0%;
+}
+
+.em-image {
+  margin-left: 0%;
+  width: 25%;
+  margin-top: 6%;
+  float: left;
+}
+
+.em-image--no-space {
+  margin-left: 25%;
+  margin-top: 6%;
+}
+
+.em-image--small-space {
+  margin-left: 50%;
+  margin-top: 6%;
+}
+
+.em-image--large-space {
+  margin-left: 75%;
+  margin-top: 6%;
+}
+
+#myvideo{
+  position:fixed;
+  right:0;
+  bottom:0;
+  min-width:100%;
+  min-height:100%;
+}
+
+
+.em-background-image {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
